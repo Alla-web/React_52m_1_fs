@@ -1,0 +1,10 @@
+.main-button {
+    min-width: fit-content;
+    width: 300px;
+    padding: 20px 30px;
+    background-color: rgb(73, 205, 205);
+    border: none;
+    border-radius: 4px;
+    font-size: 28px;
+    color: rgb(46, 66, 66);
+}
