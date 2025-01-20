@@ -8,7 +8,8 @@ import "./App.css";
 
 //Homeworks
 // import Homework02 from "./homeworks/homework02/Homework02";
-import Lesson_03 from "./components/lessons/lesson_03/Lesson_03";
+// import Lesson_03 from "./components/lessons/lesson_03/Lesson_03";
+import Homework03 from "./homeworks/homework03/Homework03";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <Lesson_02 /> */}
       {/* <Homework02 /> */}
       {/* topic: Props */}
-      <Lesson_03 />
+      {/* <Lesson_03 /> */}
+      <Homework03/>
     </div>
   );
 }
