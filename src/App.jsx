@@ -3,6 +3,7 @@ import "./App.css";
 //но с большой буквы)
 import Button from "./components/Button/Button";
 import Lesson_02 from "./components/lessons/lesson_02/Lesson_02";
+import Homework02 from "./homeworks/homework02/Homework02";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Button />
       <Button /> */}
       <Lesson_02 />
+      <Homework02 />
     </div>
   );
 }
