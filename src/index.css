@@ -22,5 +22,8 @@ p {
 
 #root {
   display: flex; 
+  gap: 30px;
   min-height: 100%;
+  padding: 30px;
+
 }
