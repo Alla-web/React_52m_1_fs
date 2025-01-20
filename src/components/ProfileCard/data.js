@@ -2,6 +2,7 @@ export const homeworkData = {
     avatar: '/src/assets/foto/employee.jpg',
     firstname: 'Alla',
     lastname: 'Nazarenko',
-    activities: 'Development',
+    profession: 'Development',
     hobby: 'Gardening'
 };
+

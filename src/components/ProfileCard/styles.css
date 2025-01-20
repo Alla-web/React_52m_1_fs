@@ -5,13 +5,13 @@
     gap: 8px;
     padding: 30px 50px;
     width: 400px;
-    background-color: rgb(108, 248, 253);
-    border: 2px solid rgb(21, 75, 102);
+    background-color: rgb(146, 249, 252);
+    border: 2px solid rgb(89, 131, 152);
     border-radius: 6px;
     font-size: 20px;
 }
 
-img {
+.profile-img {
     align-self: center;
     width: 300px;
     border: 2px solid rgb(21, 75, 102);

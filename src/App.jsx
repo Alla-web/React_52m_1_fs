@@ -1,9 +1,14 @@
 import "./App.css";
 //импорт компонента по умолчанию (название компонента можно заменить на любое другое (псевдоним),
 //но с большой буквы)
-import Button from "./components/Button/Button";
-import Lesson_02 from "./components/lessons/lesson_02/Lesson_02";
-import Homework02 from "./homeworks/homework02/Homework02";
+// import Button from "./components/Button/Button";
+
+//Lessons
+// import Lesson_02 from "./components/lessons/lesson_02/Lesson_02";
+
+//Homeworks
+// import Homework02 from "./homeworks/homework02/Homework02";
+import Lesson_03 from "./components/lessons/lesson_03/Lesson_03";
 
 function App() {
   return (
@@ -11,9 +16,12 @@ function App() {
     <div className="app">
       {/* <Button />
       <Button />
-      <Button /> */}
-      <Lesson_02 />
-      <Homework02 />
+      <Button />
+      topic: Components
+      <Lesson_02 /> */}
+      {/* <Homework02 /> */}
+      {/* topic: Props */}
+      <Lesson_03 />
     </div>
   );
 }
