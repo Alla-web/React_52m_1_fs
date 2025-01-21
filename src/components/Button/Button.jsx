@@ -9,16 +9,14 @@ import "./styles.css";
 // }
 
 //Деструктуризация 2-й вариант со значением свойства по умолчанию после равно
-function Button({ name='SEND' }) {
-  const buttonType = "submit";
-  console.log(name);
-
+function Button({ name='SEND', type='button'}) {
+  
   //Деструктуризация
   //1-й вариант
   // const {name} = Props;
 
   return (
-    <button className="main-button" type={buttonType}>
+    <button className="main-button" type={type}>
       {name}
     </button>
   );
