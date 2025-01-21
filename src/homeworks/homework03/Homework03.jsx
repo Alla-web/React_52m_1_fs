@@ -1,12 +1,21 @@
 import "./styles.css";
 import Input from "../../components/Input/Input";
-import Button from "../../components/Button/Button"
+import Button from "../../components/Button/Button";
 
 function Homework03() {
   return (
     <div className="homework03-container">
-      <Input name='email' type='text' placeholder='Enter your email' label='Email' id='input-component'/>
-      <Button name="SEND DATA"/>
+      <form className="form-container">
+        <Input
+          id="input"
+          name="email"
+          placeholder="Enter your email"
+          label="Email*"
+        />
+        {/* по умолчанию: type='text' для для input*/}
+        <Button name="SEND EMAIL" />
+        {/* по умолчанию: type='submit' для для button*/}
+      </form>
     </div>
   );
 }
