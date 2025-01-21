@@ -9,7 +9,7 @@ function Lesson_03() {
     <div className="lesson03-container">
       <AnimalCard
         animalName={lionData.name}
-        animalSpecies={lionData.species}
+        animalSpecies={lionData.species} 
         animalImg={lionData.image}
       />
       {/* если мы используем при создании компонента prop children при создании компонента, 
