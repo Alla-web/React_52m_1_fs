@@ -9,14 +9,14 @@ import "./styles.css";
 // }
 
 //Деструктуризация 2-й вариант со значением свойства по умолчанию после равно
-function Button({ name='SEND', type='button'}) {
+function Button({ name='SEND', type='button', onClick }) {
   
   //Деструктуризация
   //1-й вариант
   // const {name} = Props;
 
   return (
-    <button className="main-button" type={type}>
+    <button className="main-button" type={type} onClick={onClick}>
       {name}
     </button>
   );

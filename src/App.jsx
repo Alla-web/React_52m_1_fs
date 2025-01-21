@@ -5,11 +5,16 @@ import "./App.css";
 
 //Lessons
 // import Lesson_02 from "./components/lessons/lesson_02/Lesson_02";
+// import Lesson_03 from "./components/lessons/lesson_03/Lesson_03";
+// import Lesson_04 from "./components/lessons/lesson_04/Lesson_04";
 
 //Homeworks
 // import Homework02 from "./homeworks/homework02/Homework02";
-// import Lesson_03 from "./components/lessons/lesson_03/Lesson_03";
-import Homework03 from "./homeworks/homework03/Homework03";
+// import Homework03 from "./homeworks/homework03/Homework03";
+
+
+//Consultations
+import Consultation_02 from "./consultation/Consultation_02/Consultation_02";
 
 function App() {
   return (
@@ -18,12 +23,15 @@ function App() {
       {/* <Button />
       <Button />
       <Button />
-      topic: Components
+      ------Topic: Components
       <Lesson_02 /> */}
       {/* <Homework02 /> */}
-      {/* topic: Props */}
+      {/* ------Topic:  Props */}
       {/* <Lesson_03 /> */}
-      <Homework03/>
+      {/* <Homework03/> */}
+      {/* ------Topic: functions, hocks(useStates) */}
+      {/* <Lesson_04/> */}
+      <Consultation_02/>
     </div>
   );
 }
