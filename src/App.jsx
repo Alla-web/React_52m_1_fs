@@ -4,9 +4,10 @@ import "./App.css";
 // import Button from "./components/Button/Button";
 
 //Lessons
-// import Lesson_02 from "./components/lessons/lesson_02/Lesson_02";
-// import Lesson_03 from "./components/lessons/lesson_03/Lesson_03";
-// import Lesson_04 from "./components/lessons/lesson_04/Lesson_04";
+// import Lesson_02 from "./components/lessons/lesson02/Lesson_02";
+// import Lesson_03 from "./components/lessons/lesson03/Lesson_03";
+// import Lesson_04 from "./components/lessons/lesson04/Lesson_04";
+import Lesson05 from "./components/lessons/lesson05/Lesson05";
 
 //Homeworks
 // import Homework02 from "./homeworks/homework02/Homework02";
@@ -14,7 +15,7 @@ import "./App.css";
 
 
 //Consultations
-import Consultation_02 from "./consultation/Consultation_02/Consultation_02";
+// import Consultation_02 from "./consultation/Consultation_02/Consultation_02";
 
 function App() {
   return (
@@ -31,7 +32,10 @@ function App() {
       {/* <Homework03/> */}
       {/* ------Topic: functions, hocks(useStates) */}
       {/* <Lesson_04/> */}
-      <Consultation_02/>
+      {/* <Consultation_02/> */}
+      {/* ------Topic: map components */}
+      <Lesson05/>
+
     </div>
   );
 }
