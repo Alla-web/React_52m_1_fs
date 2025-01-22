@@ -1,0 +1,30 @@
+.feedback-container {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  border: 2px solid rgb(166, 175, 184);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 60px;
+}
+
+.hw4-button-container {
+  width: 300px;
+}
+
+.result-container {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(201, 105, 2);
+}
