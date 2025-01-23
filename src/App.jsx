@@ -2,6 +2,7 @@ import "./App.css";
 
 //импорт компонента по умолчанию (название компонента можно заменить на любое другое (псевдоним),
 //но с большой буквы)
+
 // import Button from "./components/Button/Button";
 
 //Lessons
@@ -14,6 +15,7 @@ import "./App.css";
 // import Homework02 from "./homeworks/homework02/Homework02";
 // import Homework03 from "./homeworks/homework03/Homework03";
 import Homework05 from "./homeworks/homework05/Homework05";
+import Homework04 from "./homeworks/homework04/Homework04";
 
 //Consultations
 // import Consultation_02 from "./consultation/Consultation_02/Consultation_02";
@@ -34,9 +36,11 @@ function App() {
       {/* ------Topic: functions, hocks(useStates) */}
       {/* <Lesson_04/> */}
       {/* <Consultation_02/> */}
+      <Homework04/>
       {/* ------Topic: map components */}
       {/* <Lesson05/> */}
       <Homework05 />
+
     </div>
   );
 }
