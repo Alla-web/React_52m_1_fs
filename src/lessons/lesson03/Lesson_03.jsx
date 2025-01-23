@@ -1,5 +1,5 @@
-import AnimalCard from "../../AnimalCard/AnimalCard";
-import Button from "../../Button/Button";
+import AnimalCard from "../../components/AnimalCard/AnimalCard";
+import Button from "../../components/Button/Button";
 import "./styles.css";
 //групповой импорт объектов
 import { lionData, zebraData, hippoData } from "./data";

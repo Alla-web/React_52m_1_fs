@@ -1,5 +1,5 @@
 import "./styles.css";
-import AnimalCard from "../../AnimalCard/AnimalCard";
+import AnimalCard from '../../components/AnimalCard/AnimalCard';
 
 import { animalData } from "./data";
 import { v4 } from "uuid";

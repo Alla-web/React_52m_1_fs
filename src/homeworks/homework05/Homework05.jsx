@@ -2,7 +2,6 @@ import "./styles.css";
 import Product from "../../components/Product/Product";
 
 import { products } from "./data";
-import { animalData } from "../../components/lessons/lesson05/data";
 
 function Homework05() {
     const productsElements = products.map((productData)=> {
