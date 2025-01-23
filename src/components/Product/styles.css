@@ -1,11 +1,11 @@
 .product-container {
     min-width: 300px;
-    min-height: 150px;
+    min-height: 100px;
     padding: 26px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 10px;
     background-color: rgb(144, 241, 254);
     color: rgb(31, 35, 35);
     font-size: 26px;

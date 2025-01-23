@@ -3,7 +3,7 @@ import "./styles.css";
 function Input({ id, name, type, placeholder, label}) {
   return (
     <div className="input-container">
-      <label htmlFor={id}>{label}</label>
+      {label && <label htmlFor={id}>{label}</label>}
       <input 
       id={id}
       name={name} 

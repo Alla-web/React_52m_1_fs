@@ -5,21 +5,20 @@ import { products } from "./data";
 import { animalData } from "../../components/lessons/lesson05/data";
 
 function Homework05() {
-    const productsArray = products.map((productData)=> {
+    const productsElements = products.map((productData)=> {
         return (
             <Product
-            key={animalData.id}
-            id={productData.id}
-            name={productData.name}
-            price={productData.price}
+            key={productData.id}            
+            productName={productData.name}
+            productPrice={productData.price}
             />
         );
     });
 
-    console.log(productsArray);
+    console.log(productsElements);
     
   return (
-    <div className="homework05-container">{productsArray}</div>
+    <div className="homework05-container">{productsElements}</div>
   );
 }
 
